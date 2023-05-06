@@ -1,11 +1,10 @@
 @charset "utf-8;";
 .body{
-  width: 400px;
-  height: 450px;
   margin: 0;
 }
-.flexcontainer{
-  display: flex;
+.clearfix{
+  width: 400px;
+  height: 350px;
 }
 .red--box{
   width: 400px;
@@ -18,24 +17,23 @@
   background: #00ff51;
   float: left;
 }
-.contest{
+.clearfix--main{
   width: 250px;
   height: 250px;
   float: left;
 }
-.contest-top-left{
+.clearfix--top{
   width: 150px;
+  height: 150px;
   float: left;
 }
 .pink--box{
   height: 50px;
   background: #cc00db;
-  clear: left;
 }
 .lightblue--box{
   height: 100px;
   background: #0093b7;
-  clear: left;
 }
 .paleorenge--box{
   width: 100px;
@@ -53,5 +51,4 @@
   width: 400px;
   height: 100px;
   background: #fff700;
-  clear: left;
 }
