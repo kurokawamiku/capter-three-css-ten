@@ -6,7 +6,6 @@
   width: 400px;
 }
 .red--box{
-  width: 400px;
   height: 100px;
   background: #f00;
 }
@@ -17,7 +16,7 @@
   background: #00ff51;
 }
 .karahuru--box{
-  float: right;
+  float: left;
   width: 250px;
   height: 250px;
 }
@@ -47,7 +46,6 @@
   background: #8e2727;
 }
 .yellow--box{
-  width: 400px;
   height: 100px;
   background: #fff700;
 }
